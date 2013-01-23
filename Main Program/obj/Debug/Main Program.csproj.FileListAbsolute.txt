@@ -1,0 +1,20 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\App.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainProgram_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainProgram.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\MainProgram.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\MainProgram.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainProgram.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Debug\MainProgram.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\FontEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\MessageEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\FontEditor.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Debug\MessageEditor.pdb

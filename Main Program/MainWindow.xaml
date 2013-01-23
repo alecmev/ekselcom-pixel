@@ -1,0 +1,44 @@
+﻿<Window x:Class="MyFa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyFa="clr-namespace:MyFa;assembly=ControlLibrary"
+        Title="MyFaPixel" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" Background="#fffcf2">
+
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12"></RowDefinition>
+            <RowDefinition Height="56"></RowDefinition>
+            <RowDefinition Height="12"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- Gradient -->
+        <Border Grid.Row="0" Height="127" Grid.RowSpan="3" VerticalAlignment="Top">
+            <Border.Background><ImageBrush ImageSource="Pictures/Menu.png" TileMode="FlipX" Viewport="0, 0, 512, 128" ViewportUnits="Absolute" /></Border.Background>
+        </Border>
+
+        <!-- General menu -->
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="56"></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="56"></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="56"></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="56"></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <MyFa:MenuButton Grid.Column="1" Title="font" Icon="/MainProgram;component/Pictures/MenuFonts.png" Click="FontClick" />
+            <MyFa:MenuButton Grid.Column="3" Title="message" Icon="/MainProgram;component/Pictures/MenuStrings.png" Click="MessageClick" />
+            <MyFa:MenuButton Grid.Column="5" Title="upload" Icon="/MainProgram;component/Pictures/MenuUpload.png" Click="UploadClick" />
+            <MyFa:MenuButton Grid.Column="7" Title="help" Icon="/MainProgram;component/Pictures/MenuHelp.png" Click="HelpClick" />
+
+        </Grid>
+
+    </Grid>
+
+</Window>

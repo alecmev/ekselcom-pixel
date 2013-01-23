@@ -1,0 +1,116 @@
+﻿<Window x:Class="MyFa.SymbolEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyFa="clr-namespace:MyFa;assembly=ControlLibrary"
+        Title="MyFaPixel - Edit Symbol" MinWidth="512" MinHeight="256" ResizeMode="CanResize" SizeToContent="Manual" WindowStartupLocation="CenterOwner" Background="#fffcf2" KeyUp="Window_KeyUp">
+    
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4"></RowDefinition>
+            <RowDefinition Height="32"></RowDefinition>
+            <RowDefinition Height="4"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="4"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="8"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="4"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="4"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- Result menu -->
+        <MyFa:SecondMenu Grid.Row="1" Height="32" Title="Result">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Filter="Green" AutoWidth="False" Width="128" Title="save" Click="SaveClick" />
+                <MyFa:SecondMenuButton Filter="Red" AutoWidth="False" Width="128" Title="cancel" Click="CancelClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <!-- Info bar -->
+        <MyFa:SecondMenu Grid.Row="3" Title="Info">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="X 0" x:Name="iX" AutoWidth="False" Width="64" />
+                <MyFa:SecondMenuButton Title="Y 0" x:Name="iY" AutoWidth="False" Width="64" />
+                <MyFa:SecondMenuButton Title="Size 0x0" x:Name="iSize" />
+                <MyFa:SecondMenuButton Title="Dec 0" x:Name="iDec" />
+                <MyFa:SecondMenuButton Title="Hex 0x00" x:Name="iHex" />
+                <MyFa:SecondMenuButton Title="Ascii 1250" x:Name="iAscii" />
+                <MyFa:SecondMenuButton Title="Symbol A" x:Name="iSymbol" />
+                <MyFa:SecondMenuButton Title="Font Arial" x:Name="iFont" />
+                <MyFa:SecondMenuButton Title="Font Size 8.00" x:Name="iFontSize" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <!-- Edit menu -->
+        <MyFa:SecondMenu Grid.Row="5" Title="Edit">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="Undo" Click="UndoClick" AutoWidth="False" Width="64" />
+                <MyFa:SecondMenuButton Title="Redo" Click="RedoClick" AutoWidth="False" Width="64" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <Grid Grid.Row="7">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8"></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="4"></ColumnDefinition>
+                <ColumnDefinition Width="8"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="4"></RowDefinition>
+            </Grid.RowDefinitions>
+            
+            <Border Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="0" Grid.RowSpan="3" Background="#3F000000" CornerRadius="8, 8, 4, 4" Name="HighlightBorder"></Border>
+
+            <Slider Grid.Column="2" Grid.Row="0" Minimum="1" Maximum="63" Value="32" LargeChange="1" SmallChange="1" TickFrequency="1" IsSnapToTickEnabled="True" Width="{Binding ElementName=Viewer, Path=ActualWidth}" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Name="Scope" MouseRightButtonUp="Scope_MouseRightButtonUp" />
+
+            <ScrollViewer Grid.Column="2" Grid.Row="1" Name="Viewer" HorizontalScrollBarVisibility="Visible">
+                
+                <Grid Name="test3" Margin="16">
+                    
+                    <Grid.LayoutTransform>
+                        <ScaleTransform ScaleX="{Binding ElementName=Scope, Path=Value}" ScaleY="{Binding ElementName=Scope, Path=Value}" x:Name="Scale"></ScaleTransform>
+                    </Grid.LayoutTransform>
+
+                    <Canvas Name="Board" Background="White" MouseDown="Board_MouseDown" MouseMove="Board_MouseMove" MouseUp="Board_MouseUp" MouseEnter="Board_MouseEnter" MouseLeave="Board_MouseLeave" SnapsToDevicePixels="True" />
+                    
+                </Grid>
+                
+            </ScrollViewer>
+            
+        </Grid>
+
+        <!-- Tools menu -->
+        <MyFa:SecondMenu Grid.Row="9" Title="Tools">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="pencil" x:Name="toolPencil" PreviewMouseDown="Tool_MouseDown" PreviewMouseUp="Tool_MouseUp" Selected="True" />
+                <MyFa:SecondMenuButton Title="line" x:Name="toolLine" PreviewMouseDown="Tool_MouseDown" PreviewMouseUp="Tool_MouseUp" />
+                <MyFa:SecondMenuButton Title="fill" x:Name="toolFill" PreviewMouseDown="Tool_MouseDown" PreviewMouseUp="Tool_MouseUp" />
+                <MyFa:SecondMenuButton Title="symbol" x:Name="toolSymbol" PreviewMouseDown="Tool_MouseDown" PreviewMouseUp="Tool_MouseUp" />
+                <MyFa:SecondMenuButton Title="↑" Click="MoveSymbol" AutoWidth="False" Width="32" />
+                <MyFa:SecondMenuButton Title="↓" Click="MoveSymbol" AutoWidth="False" Width="32" />
+                <MyFa:SecondMenuButton Title="←" Click="MoveSymbol" AutoWidth="False" Width="32" />
+                <MyFa:SecondMenuButton Title="→" Click="MoveSymbol" AutoWidth="False" Width="32" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <!-- Mode menu -->
+        <MyFa:SecondMenu Grid.Row="11" Title="Mode">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="draw" x:Name="modeDraw" PreviewMouseDown="Mode_MouseDown" PreviewMouseUp="Mode_MouseUp" Selected="True" />
+                <MyFa:SecondMenuButton Title="erase" x:Name="modeErase" PreviewMouseDown="Mode_MouseDown" PreviewMouseUp="Mode_MouseUp" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+
+    </Grid>
+    
+</Window>

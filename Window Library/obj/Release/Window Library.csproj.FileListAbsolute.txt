@@ -1,0 +1,56 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window_Library.Properties.Resources.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.baml
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.baml
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.g.cs
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.g.cs
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library_MarkupCompile.cache
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.g.resources
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window_Library.Properties.Resources.resources
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.read.1.tlog
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.write.1.tlog
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.pdb
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.dll
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\Window Library.pdb
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.dll
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.dll
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\ClassLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Window Library\bin\Release\ControlLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\ResolveAssemblyReference.cache
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.baml
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.baml
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\OpenWindow.g.cs
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\SaveWindow.g.cs
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library_MarkupCompile.cache
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.g.resources
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window_Library.Properties.Resources.resources
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.read.1.tlog
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\ResGen.read.1.tlog
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\GenerateResource.write.1.tlog
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\ResGen.write.1.tlog
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.dll
+D:\Stuff\Job\MyFaPixel\Window Library\obj\Release\Window Library.pdb

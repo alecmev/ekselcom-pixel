@@ -1,0 +1,43 @@
+﻿<Window x:Class="MyFa.FontEditor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyFa="clr-namespace:MyFa;assembly=ControlLibrary"
+        Title="MyFaPixel - Font Editor" Width="800" Height="600" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" Background="#fffcf2">
+
+    <Grid>
+            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="8"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="8"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!-- File menu -->
+        <MyFa:SecondMenu Grid.Row="1" Title="File">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="new" Click="NewClick" />
+                <MyFa:SecondMenuButton Title="open" Click="OpenClick" />
+                <MyFa:SecondMenuButton Title="save" Click="SaveClick" />
+                <MyFa:SecondMenuButton Title="save as" Click="SaveAsClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+
+        <Grid Grid.Row="3">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="8"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer Grid.Column="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                <Grid Name="SymbolTable" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </ScrollViewer>
+
+        </Grid>
+
+    </Grid>
+
+</Window>

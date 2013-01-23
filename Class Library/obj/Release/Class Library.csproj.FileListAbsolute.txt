@@ -1,0 +1,15 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Class Library\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.dll
+D:\Stuff\Job\MyFaPixel\Class Library\bin\Release\ClassLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Class Library\obj\Release\ResolveAssemblyReference.cache
+D:\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.dll
+D:\Stuff\Job\MyFaPixel\Class Library\obj\Release\ClassLibrary.pdb

@@ -1,0 +1,26 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageEditor_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageEditor.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MyFa.Properties.Resources.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\MessageEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\MessageEditor.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageEditor.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\bin\Debug\MessageEditor.exe.config
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\PageEditor.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\PageEditor.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageOpenWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageOpenWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageSaveWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\MessageEditor\obj\x86\Debug\MessageSaveWindow.g.cs

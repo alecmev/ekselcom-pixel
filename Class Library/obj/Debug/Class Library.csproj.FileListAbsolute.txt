@@ -1,0 +1,6 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\obj\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Class Library\bin\Debug\ClassLibrary.dll.config

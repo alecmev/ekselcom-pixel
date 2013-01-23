@@ -1,0 +1,139 @@
+﻿<Window x:Class="MyFa.SymbolPickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:MyFa="clr-namespace:MyFa;assembly=ControlLibrary"
+        Title="MyFaPixel - Pick Symbol" Width="480" Height="480" ResizeMode="CanResize" SizeToContent="Manual" WindowStartupLocation="CenterOwner" Background="#fffcf2" SizeChanged="WindowSizeChanged">
+    
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="4" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="8" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="4" />
+            <RowDefinition Height="32" />
+            <RowDefinition Height="8" />
+            <RowDefinition />
+            <RowDefinition Height="8" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="4" />
+        </Grid.RowDefinitions>
+
+        <!-- Result menu -->
+        <MyFa:SecondMenu Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="1" Height="32" Title="Result">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Filter="Green" AutoWidth="False" Width="128" Title="ok" Click="OKClick" />
+                <MyFa:SecondMenuButton Filter="Red" AutoWidth="False" Width="128" Title="cancel" Click="CancelClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <Border Grid.Column="1" Grid.Row="3" Background="#3F000000" CornerRadius="4, 4, 4, 4" />
+        
+        <Grid Grid.Column="1" Grid.Row="3">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4" />
+                <ColumnDefinition />
+                <ColumnDefinition Width="4" />
+                <ColumnDefinition Width="64" />
+                <ColumnDefinition Width="4" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4" />
+                <RowDefinition />
+                <RowDefinition Height="4" />
+            </Grid.RowDefinitions>
+            
+            <ListBox Grid.Column="1" Grid.Row="1" x:Name="FontFamilyList" SelectionChanged="FontFamilyChanged" SelectionMode="Single" Width="192" />
+            
+            <Grid Grid.Column="3" Grid.Row="1">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="4" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="24" />
+                    <RowDefinition Height="4" />
+                    <RowDefinition />
+                    <RowDefinition Height="4" />
+                    <RowDefinition Height="64" />
+                </Grid.RowDefinitions>
+
+                <TextBox Grid.Column="0" Grid.Row="0" Width="30" Height="24" HorizontalContentAlignment="Right" VerticalContentAlignment="Center" PreviewTextInput="FontSizeInput" x:Name="FontSizeLeft" LostFocus="FontSizeCheck" MaxLength="3" />
+                <TextBlock Grid.Column="1" Grid.Row="0" Text="." VerticalAlignment="Bottom" />
+                <TextBox Grid.Column="2" Grid.Row="0" Width="30" Height="24" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" PreviewTextInput="FontSizeInput" x:Name="FontSizeRight" LostFocus="FontSizeCheck" MaxLength="2" />
+                <ListBox Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="2" x:Name="FontSizeList" SelectionChanged="FontSizeChanged" ClipToBounds="True" />
+                <TextBox Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="4" Width="64" Height="64" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" MaxLength="2" Name="TheSymbol" FontSize="32" Text="A" TextChanged="TheSymbolChanged" SelectionChanged="TheSymbolInput" />
+
+            </Grid>
+
+        </Grid>
+
+        <Border Grid.Column="3" Grid.Row="3" Background="#3FBF8F00" CornerRadius="4, 4, 4, 4" Name="PreviewBorder" MouseEnter="PreviewBorderMouseEnter" PreviewMouseDown="PreviewBorderMouseDown" PreviewMouseUp="PreviewBorderMouseUp" MouseLeave="PreviewBorderMouseLeave" />
+
+        <Grid Grid.Column="3" Grid.Row="3" MouseEnter="PreviewBorderMouseEnter" PreviewMouseDown="PreviewBorderMouseDown" PreviewMouseUp="PreviewBorderMouseUp" MouseLeave="PreviewBorderMouseLeave">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4" />
+                <ColumnDefinition />
+                <ColumnDefinition Width="4" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4" />
+                <RowDefinition />
+                <RowDefinition Height="4" />
+            </Grid.RowDefinitions>
+
+            <Canvas Grid.Column="1" Grid.Row="1" Name="Board" Background="White" SnapsToDevicePixels="True" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Canvas.LayoutTransform>
+                    <ScaleTransform x:Name="BoardScale" />
+                </Canvas.LayoutTransform>
+            </Canvas>
+
+        </Grid>
+
+        <!-- Style menu -->
+        <MyFa:SecondMenu Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="5" Height="20" Title="Style">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="bold" x:Name="FontStyleBold" Click="FontStyleClick" />
+                <MyFa:SecondMenuButton Title="italic" x:Name="FontStyleItalic" Click="FontStyleClick" />
+                <MyFa:SecondMenuButton Title="underline" x:Name="FontStyleUnderline" Click="FontStyleClick" />
+                <MyFa:SecondMenuButton Title="strikeout" x:Name="FontStyleStrikeout" Click="FontStyleClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <!-- Horizontal align menu -->
+        <MyFa:SecondMenu Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="7" Height="20" Title="Horizontal">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="left" x:Name="SymbolHAlignLeft" Click="SymbolHAlignClick" Selected="True" />
+                <MyFa:SecondMenuButton Title="center" x:Name="SymbolHAlignCenter" Click="SymbolHAlignClick" />
+                <MyFa:SecondMenuButton Title="right" x:Name="SymbolHAlignRight" Click="SymbolHAlignClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+        <!-- Verical align menu -->
+        <MyFa:SecondMenu Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="9" Height="20" Title="Verical">
+            <MyFa:SecondMenu.Buttons>
+                <MyFa:SecondMenuButton Title="top" x:Name="SymbolVAlignTop" Click="SymbolVAlignClick" Selected="True" />
+                <MyFa:SecondMenuButton Title="center" x:Name="SymbolVAlignCenter" Click="SymbolVAlignClick" />
+                <MyFa:SecondMenuButton Title="bottom" x:Name="SymbolVAlignBottom" Click="SymbolVAlignClick" />
+            </MyFa:SecondMenu.Buttons>
+        </MyFa:SecondMenu>
+        
+    </Grid>
+    
+</Window>

@@ -1,0 +1,61 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\App.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.exe
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.exe
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.exe
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.dll
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.pdb
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.baml
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.g.cs
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\App.g.cs
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram_MarkupCompile.cache
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.g.resources
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.exe
+C:\Users\MyFaJoArCo\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.exe.config
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.exe
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.exe
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\MainProgram.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.dll
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.dll
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.exe
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.exe
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.dll
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\ClassLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\ControlLibrary.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\Window Library.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\FontEditor.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\bin\Release\MessageEditor.pdb
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\ResolveAssemblyReference.cache
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.baml
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainWindow.g.cs
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\App.g.cs
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram_MarkupCompile.cache
+D:\Stuff\Job\MyFaPixel\Main Program\obj\Release\MainProgram.g.resources

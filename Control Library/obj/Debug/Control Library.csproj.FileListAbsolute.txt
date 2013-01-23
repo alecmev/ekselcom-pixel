@@ -1,0 +1,10 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\MyFa.Properties.Resources.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\bin\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\bin\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\ResGen.read.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Control Library\obj\Debug\ResGen.write.1.tlog

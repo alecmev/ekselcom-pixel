@@ -1,0 +1,25 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\MainWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\NewSymbolTableWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\SymbolEditWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\SymbolPickerWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\NewSymbolTableWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\SymbolEditWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\SymbolPickerWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\App.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\FontEditor_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\FontEditor.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\MyFa.Properties.Resources.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\FontEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\FontEditor.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\bin\Debug\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\FontEditor.exe
+C:\Users\Administrator\Stuff\Job\MyFaPixel\FontEditor\obj\x86\Debug\FontEditor.pdb

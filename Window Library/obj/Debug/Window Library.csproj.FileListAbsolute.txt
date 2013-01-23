@@ -1,0 +1,18 @@
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\Window Library.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\ClassLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\ControlLibrary.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\ClassLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\bin\Debug\ControlLibrary.pdb
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\OpenWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\SaveWindow.baml
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\OpenWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\SaveWindow.g.cs
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\Window Library_MarkupCompile.cache
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\Window Library.g.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\Window_Library.Properties.Resources.resources
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\Window Library.dll
+C:\Users\Administrator\Stuff\Job\MyFaPixel\Window Library\obj\Debug\Window Library.pdb
